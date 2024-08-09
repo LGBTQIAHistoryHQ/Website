@@ -550,3 +550,32 @@ a {
   border-color: #0085b6;
   color: #fff;
 }
+
+/* Styling history pages */
+.history-content h1 {
+  text-align: center;
+  padding: 1%;
+}
+
+.history-content {
+  margin: 2%;
+  color: #563C5C;
+}
+
+.history-sources {
+  text-align: center;
+  padding: 2%;
+  color: #563C5C;
+}
+
+.history-sources p {
+  color: #425C3C;
+}
+
+.history-sources a {
+  color:#425C3C;
+}
+
+.history-sources a:hover {
+  color:#E0BA44;
+}
