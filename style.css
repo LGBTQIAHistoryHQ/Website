@@ -384,10 +384,12 @@ ul li a {
   justify-content: center;
 }
 
-.contact p .email {
+.contact .email {
   color: #425C3C;
   padding-left: 3px;
   padding-right: 3px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Styling the search bar */
