@@ -1,7 +1,7 @@
 [
    {
       "title": "Sappho",
-      "link": "sappho.html",
+      "link": "https://lgbtqiahistoryhq.github.io/Website/sappho.html",
       "description": "Learn about the ancient Greek poet Sappho",
       "categories": [
          "Sapphic",
@@ -15,8 +15,7 @@
        "categories":[
           "JavaScript",
           "Filters"
-       ],
-       "level":"Intermediate"
+       ]
     },
     {
        "title":"How to Build a Pure CSS Loading Animation (With Keyframes)",

@@ -34,7 +34,7 @@ const postsContainer = document.querySelector(".posts-container");
 const searchDisplay = document.querySelector(".search-display");
 
 fetch(
-  "https://gist.githubusercontent.com/jemimaabu/564beec0a30dbd7d63a90a153d2bc80b/raw/0b7e25ba0ebee6dbba216cfcfbae72d460a60f26/tutorial-levels"
+  "https://lgbtqiahistoryhq.github.io/Website/content.json"
 ).then(async (response) => {
   postsData = await response.json();
   postsData.map((post) => createPost(post));
