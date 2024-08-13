@@ -1,5 +1,14 @@
 [
    {
+      "title": "Compton's Cafeteria Riot",
+      "link": "https://lgbtqiahistoryhq.github.io/Website/comptonsCafeteriaRiot.html",
+      "description": "Resistance to police brutality 3 years before Stonewall",
+      "categories": [
+         "Liberation",
+         "1960s"
+      ]
+   },
+   {
       "title": "Emily Dickinson",
       "link": "https://lgbtqiahistoryhq.github.io/Website/emilyDickinson.html",
       "description": "A 17th century poet",
@@ -9,12 +18,11 @@
       ]
    },
    {
-      "title": "Compton's Cafeteria Riot",
-      "link": "https://lgbtqiahistoryhq.github.io/Website/comptonsCafeteriaRiot.html",
-      "description": "Resistance to police brutality 3 years before Stonewall",
+      "title": "Pride Flags",
+      "link": "https://lgbtqiahistoryhq.github.io/Website/prideFlags.html",
+      "description": "The history of pride flag designs",
       "categories": [
-         "Liberation",
-         "1960s"
+         "Symbolism"
       ]
    },
    {
