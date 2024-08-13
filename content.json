@@ -1,5 +1,14 @@
 [
    {
+      "title": "Emily Dickinson",
+      "link": "https://lgbtqiahistoryhq.github.io/Website/emilyDickinson.html",
+      "description": "A 17th century poet",
+      "categories": [
+         "Individual",
+         "1800s"
+      ]
+   },
+   {
       "title": "Compton's Cafeteria Riot",
       "link": "https://lgbtqiahistoryhq.github.io/Website/comptonsCafeteriaRiot.html",
       "description": "Resistance to police brutality 3 years before Stonewall",
@@ -13,7 +22,7 @@
        "link": "https://lgbtqiahistoryhq.github.io/Website/sappho.html",
        "description": "Learn about the ancient Greek poet Sappho",
        "categories": [
-          "Sapphic",
+          "Individual",
           "Ancient"
        ]
     },
