@@ -1,17 +1,19 @@
 var factList = [
-    "Eleanor Roosevelt was queer",
     "The 1924 Society for Human Rights was the first known gay rights group in the US",
-    "Compton's Cafeteria Riot was an uprising against police brutality 3 years before Stonewall lead by trans women and drag queens"
+    "Compton's Cafeteria Riot was an uprising against police brutality 3 years before Stonewall lead by trans women and drag queens",
+    "The first pride flag was designed by Gilbert Baker and commissioned by Harvey Milk",
+    'During the late 1800s wearing a green carnation on your lapel was a subtle que that you were queer'
 ];
 
-var sourceList = [
-    "AP*",
-    "The Wall Street Journal*",
-    "NPR*"
+var linkList = [
+    "https://lgbtqiahistoryhq.github.io/Website/societyForHumanRights.html",
+    "https://lgbtqiahistoryhq.github.io/Website/comptonsCafeteriaRiot.html",
+    "https://lgbtqiahistoryhq.github.io/Website/prideFlags.html",
+    "https://lgbtqiahistoryhq.github.io/Website/floralSymbolism.html"
 ];
 
 var fact = document.getElementById("fact");
-var source = document.getElementById("source");
+var link = document.getElementById("link");
 
 var generateBtn = document.getElementById("generateBtn");
 var count = 0;
@@ -22,7 +24,8 @@ if (generateBtn) {
 
 function displayFact() {
     fact.innerHTML = factList[count];
-    source.innerHTML = "Source: " + sourceList[count];
+    link.innerHTML = "Learn More";
+    link.href = linkList[count];
     count++;
     if (count >= factList.length) {
         count = 0;
@@ -78,7 +81,7 @@ const handleSearchPosts = (query) => {
   );
   
   if (searchResults.length == 0) {
-    searchDisplay.innerHTML = "No results found"
+    searchDisplay.innerHTML = "No results found. To suggest a topic go to the contact us page."
   } else if (searchResults.length == 1) {
     searchDisplay.innerHTML = `1 result found for your query: ${query}`
   } else {

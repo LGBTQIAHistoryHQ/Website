@@ -139,7 +139,7 @@ ul li a {
   font-size: larger;
 }
 
-.fact-generator .input #source {
+.fact-generator .input #link {
   display: flex;
   justify-content: center;
   color: #425C3C
