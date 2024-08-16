@@ -564,7 +564,6 @@ a {
 }
 
 .history-sources {
-  text-align: center;
   padding: 2%;
   color: #563C5C;
 }
@@ -580,6 +579,11 @@ a {
 .history-sources a {
   color:#425C3C;
   text-decoration-line: underline;
+}
+
+.history-sources .source-sing {
+  display: block;
+  padding-bottom: 1%;
 }
 
 .history-sources a:hover {
