@@ -149,10 +149,14 @@ ul li a {
   background-color: #F7F7F7;
   padding: 7% 7%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .history-description .image {
   height: 50vh; 
+  display: flex;
+  justify-content: center;
 }
 
 .history-description .text {
@@ -167,7 +171,8 @@ ul li a {
 
 .history-description .buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 50vh;
 }
 
 .history-description .buttons .historybtn .button {
