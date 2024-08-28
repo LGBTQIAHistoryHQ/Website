@@ -1,5 +1,23 @@
 [
    {
+      "title": "ACT UP",
+      "link": "https://lgbtqiahistoryhq.github.io/Website/ACTUP.html",
+      "description": "Group dedicated to ending the AIDS crisis",
+      "categories": [
+         "Liberation",
+         "1980s"
+      ]
+   },
+   {
+      "title": "Alan Turing",
+      "link": "https://lgbtqiahistoryhq.github.io/Website/alanTuring.html",
+      "description": "The father of computer science",
+      "categories": [
+         "Individual",
+         "1900s"
+      ]
+   },
+   {
       "title": "Compton's Cafeteria Riot",
       "link": "https://lgbtqiahistoryhq.github.io/Website/comptonsCafeteriaRiot.html",
       "description": "Resistance to police brutality 3 years before Stonewall",
