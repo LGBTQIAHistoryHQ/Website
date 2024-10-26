@@ -44,6 +44,24 @@
       ]
    },
    {
+      "title": "The 1979 Marh on Washington for Lesbian and Gay Rights",
+      "link": "https://lgbtqiahistoryhq.github.io/Website/marchOnWashington1979.html",
+      "description": "The first national march for queer rights",
+      "categories": [
+         "Liberation",
+         "1970s"
+      ]
+   },
+   {
+      "title": "Marsh P Johnson",
+      "link": "https://lgbtqiahistoryhq.github.io/Website/marshaPJohnson.html",
+      "description": "A 60s trans and gay rights activist",
+      "categories": [
+         "Liberation",
+         "1960s"
+      ]
+   },
+   {
       "title": "Pride Flags",
       "link": "https://lgbtqiahistoryhq.github.io/Website/prideFlags.html",
       "description": "The history of pride flag designs",
@@ -67,6 +85,15 @@
       "categories": [
          "Liberation",
          "1920s"
+      ]
+   },
+   {
+      "title": "The White Night Riots",
+      "link": "https://lgbtqiahistoryhq.github.io/Website/whiteNightRiots.html",
+      "description": "Riots in the wake of Harvey Milk's assassination",
+      "categories": [
+         "Liberation",
+         "1970s"
       ]
    }
  ]
