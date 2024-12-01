@@ -6,10 +6,10 @@ var factList = [
 ];
 
 var linkList = [
-    "https://lgbtqiahistoryhq.github.io/Website/societyForHumanRights.html",
-    "https://lgbtqiahistoryhq.github.io/Website/comptonsCafeteriaRiot.html",
-    "https://lgbtqiahistoryhq.github.io/Website/prideFlags.html",
-    "https://lgbtqiahistoryhq.github.io/Website/floralSymbolism.html"
+    "https://lgbtqiahistoryhq.com/historyPages/societyForHumanRights.html",
+    "https://lgbtqiahistoryhq.com/historyPages/comptonsCafeteriaRiot.html",
+    "https://lgbtqiahistoryhq.com/historyPages/prideFlags.html",
+    "https://lgbtqiahistoryhq.com/historyPages/floralSymbolism.html"
 ];
 
 var fact = document.getElementById("fact");
