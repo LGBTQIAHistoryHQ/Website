@@ -37,7 +37,7 @@ const postsContainer = document.querySelector(".posts-container");
 const searchDisplay = document.querySelector(".search-display");
 
 fetch(
-  "https://lgbtqiahistoryhq.github.io/Website/content.json"
+  "https://lgbtqiahistoryhq.com/content.json"
 ).then(async (response) => {
   postsData = await response.json();
   postsData.map((post) => createPost(post));
