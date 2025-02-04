@@ -482,6 +482,7 @@ a {
 .posts-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   padding: 12px 0;
 }
@@ -498,7 +499,6 @@ a {
 
 .post-title {
   font: 700 18px/1.4em system-ui, Roboto, Arial, sans-serif;
-  color: #563C5C;
   margin-top: 0;
   display: -webkit-box;
   -webkit-line-clamp: 3;
