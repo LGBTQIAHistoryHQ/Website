@@ -44,7 +44,7 @@ fetch(
 });
 
 const createPost = (postData) => {
-  const { title, link, categories } = postData;
+  const { title, link, description, categories } = postData;
   const post = document.createElement("div");
   post.className = "post";
   post.innerHTML = `
@@ -52,7 +52,7 @@ const createPost = (postData) => {
         <h1>${title}</h1>
       </a>
       <div class="post-content">
-        <p class="post-title">${title}</p>
+        <p class="post-description">${description}</p>
         <div class="post-tags">
           ${categories
             .map((category) => {

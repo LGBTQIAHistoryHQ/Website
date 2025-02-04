@@ -497,7 +497,7 @@ a {
   height: auto;
 }
 
-.post-title {
+.post-description {
   font: 700 18px/1.4em system-ui, Roboto, Arial, sans-serif;
   margin-top: 0;
   display: -webkit-box;
@@ -518,9 +518,15 @@ a {
   display: block;
   margin: 0 auto;
   border-bottom: 1px solid #E0BA44;
-  height: 200px;
   color: #563C5C;
-  padding-top: 50px;
+  height: 200px;
+}
+
+.post-preview h1 {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  
 }
 
 .post-tag {
