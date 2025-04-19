@@ -36,21 +36,21 @@ header {
   margin-left: 10%;
 }
 
-ul {
+nav ul {
   display: flex;
   list-style-type: none;
 }
 
-li {
+nav li {
   border-left: 1px solid #b7acd0;
 }
 
-li:hover{
+nav li:hover{
   background-color: #E0BA44;
   transition:all .25s;
 }
 
-ul li a {
+nav ul li a {
   padding: 0 20px;
   text-decoration: none;
   color: white;
@@ -375,4 +375,131 @@ ul li a {
   flex-direction: column;
   align-items: center;
   gap: var(--Spacing-S, 1.5rem);
+}
+
+.aidsActivismLesson {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Spacing-S, 1.5rem);
+}
+
+.ignoranceFear {
+  display: flex;
+  width: 56.4375rem;
+  padding-bottom: 0.5625rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8125rem;
+}
+
+#keithHaring {
+  aspect-ratio: 503/667;
+}
+
+.ignoranceFear .citation {
+  color: #828282;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.40625rem */
+}
+
+.aidsActivismPredictions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Spacing-S, 1.5rem);
+}
+
+.yearGroup {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 2.25rem */
+}
+
+.yearGroup ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.aidsActivismReaganResponse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.aidsActivismPrimarySources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Spacing-S, 1.5rem);
+}
+
+.aidsActivismMarkKostopoulos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.aidsActivismACTUP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+#ACTUP1 {
+  aspect-ratio: 937/598;
+}
+
+#ACTUP2 {
+  aspect-ratio: 929/790;
+}
+
+#ACTUP3 {
+  aspect-ratio: 930.31/626.00;
+}
+
+.AIDSActivismMardiGras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.aidsActivismFactsNotFear {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+.aidsActivismEducationEfforts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+#pamphlet1 {
+  width: 73.6875rem;
+  height: 44.875rem;
+  aspect-ratio: 1179/718;
+}
+
+#pamphlet2 {
+  width: 73.6875rem;
+  height: 44.875rem;
+  aspect-ratio: 1179/776;
 }
