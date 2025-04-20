@@ -503,3 +503,110 @@ nav ul li a {
   height: 44.875rem;
   aspect-ratio: 1179/776;
 }
+
+.rustinIntro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Spacing-S, 1.5rem);
+}
+
+.rustinImage {
+  display: flex;
+  width: 56.4375rem;
+  height: 45.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4375rem;
+}
+
+#rustinImageId {
+  width: 29.29106rem;
+  height: 43.625rem;
+  flex-shrink: 0;
+  aspect-ratio: 468.66/698.00;
+  border-radius: 0.625rem;
+}
+
+#whileYouReadConsider {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 2.25rem */
+}
+
+.rustinEssay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.rustinPrimarySources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Spacing-S, 1.5rem);
+}
+
+.rustinPrimarySources ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.rustinPrimarySources ol .a {
+  display: block;
+  list-style-type: lower-alpha;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.rustinNonViolence {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.rustinArrest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.rustinMLK {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+#MLKRustin {
+  width: 69.6875rem;
+  height: 49.0625rem;
+  aspect-ratio: 223/157;
+}
+
+#lifeMagazine {
+  width: 53.3125rem;
+  height: 68rem;
+  aspect-ratio: 853/1088;
+}
+
+#baldwinRustin {
+  width: 65.6875rem;
+  height: 44.9375rem;
+  aspect-ratio: 1051/719;
+}
