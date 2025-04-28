@@ -10,13 +10,23 @@ body {
 }
 
 .text {
-  color: #563C5C;
+  color: black;
   margin: 2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 2.25rem */
 }
 
-.text {
-  color: #563C5C;
-  margin: 2rem;
+p {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+h1 {
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 
 /* Styling the nav bar */
@@ -125,16 +135,6 @@ nav ul li a {
   width: 56.4375rem;
 }
 
-.text {
-  color: #000;
-  /* Subheading */
-  font-family: "Inter", sans-serif;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%; /* 2.25rem */
-}
-
 .boldText {
   color: #000;
   font-family: "Inter", sans-serif;
@@ -192,7 +192,6 @@ nav ul li a {
 
 .stonewallPoliceReports {
   display: flex;
-  width: 81.3125rem;
   flex-direction: column;
   align-items: center;
   gap: 1.875rem;
@@ -420,6 +419,7 @@ nav ul li a {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 2.25rem */
+  padding-left: 2rem;
 }
 
 .yearGroup ul {
@@ -577,6 +577,28 @@ nav ul li a {
   flex-direction: column;
   align-items: center;
   gap: 1.875rem;
+}
+
+.rustinNonViolence ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+  font-size: 1.5rem;
+}
+
+.rustinNonViolence ol .a {
+  display: block;
+  list-style-type: lower-alpha;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+  font-size: 1.5rem;
 }
 
 .rustinArrest {

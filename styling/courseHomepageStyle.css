@@ -10,10 +10,9 @@
   }
   
   .text {
-    color: #563C5C;
     margin: 2rem;
   }
-  
+
   /* Styling the nav bar */
   header {
     height: 5%;
@@ -89,6 +88,7 @@
     padding: 1rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    color: black;
   }
 
   .continue {
@@ -123,5 +123,10 @@
 
   h2 {
     padding-top: 1rem;
+    color: #563C5C;
   }
-  
+
+  h1 {
+    padding: 3rem;
+    color: #563C5C;
+  }
