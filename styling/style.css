@@ -96,6 +96,43 @@ ul li a {
   transition:all .25s;
 }
 
+.course-description {
+  background-color: #F7F7F7;
+  padding: 7% 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course-description .text {
+  margin-left: 4%;
+  color: #563C5C;
+}
+
+.course-description .text p {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.course-description .button a {
+  display: flex;
+  padding: 0.875rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  background: #563C5C;
+  color: white;
+  text-decoration: none;
+}
+
+.course-description .button a:hover {
+  background-color: #425C3C;
+  transition:all .25s;
+}
+
 .fact-generator {
   display: flex;
   justify-content: center;
