@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #F5F5F5;
+}
+
+.text {
+  color: black;
+  margin: 2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 2.25rem */
+}
+
+p {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+h1 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.collapsible {
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  background-color: #F5F5F5;
+  align-items: center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+/* Styling the nav bar */
+header {
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #BFB5D7;
+  border-bottom: 2px solid #563C5C;
+}
+
+.logo  img{
+  height: 100%;
+  max-height: 30px;
+  width: auto;
+  margin-left: 10%;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  border-left: 1px solid #b7acd0;
+}
+
+nav li:hover{
+  background-color: #E0BA44;
+  transition:all .25s;
+}
+
+nav ul li a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 20px;
+}
+
+.takeAction {
+  background-color: #425C3C;
+}
+
+.takeAction:hover {
+  background-color: #E0BA44;
+  transition:all .25s;
+}
+
+.title {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.08rem;
+}
+
+.continue {
+  display: flex;
+  padding: 1rem 0rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+
+.continue a {
+  display: flex;
+  padding: 0.875rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #563C5C;
+  background: #563C5C;
+  color: white;
+  text-decoration: none;
+}
+
+.continue a:hover{
+  background-color: #F5F5F5;
+  color: black;
+  transition:all .25s;
+}
+
+.caption {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.40625rem */
+  width: 56.4375rem;
+}
+
+.citation {
+  color: #828282;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.40625rem */
+  max-width: 90%;
+}
+
+.boldText {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 2.625rem */
+}
+
+.paragraphText {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%; /* 3.5rem */
+}
+
+.thinkAboutIt {
+  text-align: center;
+  width: 74.8125rem;
+  height: 7.0625rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: 3px solid #BFB5D7;
+  background: #FFF;
+  display: flex;
+}
+
+.cardText {
+  color: #2C2C2C;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 2rem;
+  padding-top: 2.25rem;
+}
+
+.thinkAboutItLarge {
+  width: 74.8125rem;
+  height: 14.3125rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: 3px solid #BFB5D7;
+  background: #FFF;
+}
+
+.cardTextLarge {
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+/* Intro styling */
+.dobLesson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--Spacing-S, 24px);
+}
+
+/* Background styling */
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--Spacing-S, 24px);
+}
+
+/* DOB Intro Styling */
+.dobIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.dobIntro #cover {
+    aspect-ratio: 541/839;
+}
+
+/* Primary Sources */
+.primarySources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--Spacing-S, 24px);
+}
+
+/* Stated purpose */
+.statedPurpose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.statedPurpose #purposePage {
+    aspect-ratio: 31/48;
+    max-width: 95%;
+}
+
+/* Schedule */
+.schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.schedule #scheduleImg {
+    aspect-ratio: 1109/1804;
+    max-width: 95%;
+}
+
+/* Parenthood */
+.parenthood {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.parenthood #parenthoodImg {
+    aspect-ratio: 1181/1213;
+    max-width: 95%;
+}
+
+/* Responses */
+.responses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.responses #responseImg {
+    aspect-ratio: 545/844;
+    max-width: 95%;
+}

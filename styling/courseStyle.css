@@ -153,6 +153,47 @@ nav ul li a {
   line-height: 200%; /* 3.5rem */
 }
 
+.thinkAboutIt {
+  text-align: center;
+  width: 74.8125rem;
+  height: 7.0625rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: 3px solid #BFB5D7;
+  background: #FFF;
+  display: flex;
+}
+
+.cardText {
+  color: #2C2C2C;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 2rem;
+  padding-top: 2.25rem;
+}
+
+.thinkAboutItLarge {
+  width: 74.8125rem;
+  height: 14.3125rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: 3px solid #BFB5D7;
+  background: #FFF;
+}
+
+.cardTextLarge {
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
 /* Stonewall Intro Styling */
 .stonewallIntro {
   display: flex;
@@ -229,27 +270,6 @@ nav ul li a {
   gap: var(--Spacing-S, 1.5rem);
 }
 
-.thinkAboutIt {
-  text-align: center;
-  width: 74.8125rem;
-  height: 7.0625rem;
-  flex-shrink: 0;
-  border-radius: 0.5rem;
-  border: 3px solid #BFB5D7;
-  background: #FFF;
-  display: flex;
-}
-
-.cardText {
-  color: #2C2C2C;
-  font-family: "Inter", sans-serif;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 700;
-  padding-left: 2rem;
-  padding-top: 2.25rem;
-}
-
 .civilRightsIntro {
   display: flex;
   flex-direction: column;
@@ -302,26 +322,6 @@ nav ul li a {
   flex-direction: column;
   align-items: center;
   gap: 1.875rem;
-}
-
-.thinkAboutItLarge {
-  width: 74.8125rem;
-  height: 14.3125rem;
-  flex-shrink: 0;
-  border-radius: 0.5rem;
-  border: 3px solid #BFB5D7;
-  background: #FFF;
-}
-
-.cardTextLarge {
-  padding-top: 1.5rem;
-  padding-left: 2rem;
-  color: #000;
-  font-family: "Inter", sans-serif;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%;
 }
 
 #pamphlet1 {
