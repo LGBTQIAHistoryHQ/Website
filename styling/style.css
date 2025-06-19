@@ -59,7 +59,7 @@ ul li a {
 .heroSection {
   display: flex;
   align-items: center;
-  background-image: url("../images/purplePride.png");
+  background-image: url("../images/purplePride.webp");
   background-repeat: no-repeat;
   background-size: cover;
   height: 880px;
