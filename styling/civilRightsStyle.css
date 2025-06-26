@@ -108,6 +108,13 @@ ul li a {
 .takeAction {
   border: #563C5C solid 2px;
   border-radius: 6px;
+  background-color: #563C5C;
+}
+
+.takeAction:hover {
+  cursor: pointer;
+  background-color: #BFB5D7;
+  transition:all .25s;
 }
 
 .title {
